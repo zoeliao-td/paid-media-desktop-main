@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History - Campaigns Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="chat-history.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-diamond"></i>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html">
+                        <i class="fas fa-bullhorn"></i>
+                        <span>Campaigns</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="chat-history.html">
+                        <i class="fas fa-clock"></i>
+                        <span>Chat History</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </li>
+            </ul>
+            <div class="sidebar-bottom">
+                <div class="nav-item">
+                    <i class="fas fa-home"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-share-alt"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-users"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-layer-group"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-plus"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <div class="nav-item">
+                    <i class="fas fa-gem"></i>
+                </div>
+                <div class="nav-item settings-icon">
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="page-header">
+                <h1>Chat History</h1>
+            </header>
+
+            <!-- Search and Filter -->
+            <div class="chat-controls">
+                <div class="search-container">
+                    <input type="text" placeholder="Search conversations or ask: Show me campaign performance questions from last week" class="search-input">
+                    <div class="search-actions">
+                        <button class="action-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <button class="action-btn">
+                            <i class="fas fa-filter"></i>
+                        </button>
+                        <button class="action-btn">
+                            <i class="fas fa-download"></i>
+                        </button>
+                        <button class="action-btn primary">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Filter Options -->
+                <div class="filter-bar">
+                    <select class="filter-select">
+                        <option>All Conversations</option>
+                        <option>Campaign Questions</option>
+                        <option>Performance Analysis</option>
+                        <option>Budget Optimization</option>
+                        <option>Creative Feedback</option>
+                    </select>
+                    <select class="filter-select">
+                        <option>All Time</option>
+                        <option>Today</option>
+                        <option>This Week</option>
+                        <option>This Month</option>
+                        <option>Last 90 Days</option>
+                    </select>
+                    <button class="clear-filters">Clear Filters</button>
+                </div>
+            </div>
+
+            <!-- Chat Conversations -->
+            <div class="chat-conversations">
+
+                <!-- Today's Conversations -->
+                <div class="conversation-group">
+                    <h3 class="group-header">Today - Jan 28</h3>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">Campaign Performance Analysis</h4>
+                                <span class="conversation-time">2:34 PM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag performance">Performance</span>
+                                <span class="tag urgent">Needs Attention</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> Which campaigns are underperforming this week?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> I found 3 campaigns underperforming this week. Segment B has a 40% higher CPA than target due to low engagement. I recommend pausing this segment and reducing send frequency by 20%.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link">
+                                <i class="fas fa-bookmark"></i> Save
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">Budget Optimization Discussion</h4>
+                                <span class="conversation-time">11:45 AM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag budget">Budget</span>
+                                <span class="tag scaling">Scaling</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> Should I increase budget for the retargeting campaign?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> Yes, your retargeting campaign CPA is 28% below target with stable conversion volume. I suggest increasing daily budget by 10-15% to capture additional demand without increasing CPA.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link">
+                                <i class="fas fa-bookmark"></i> Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Yesterday's Conversations -->
+                <div class="conversation-group">
+                    <h3 class="group-header">Yesterday - Jan 27</h3>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">Creative Performance Review</h4>
+                                <span class="conversation-time">4:22 PM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag creative">Creative</span>
+                                <span class="tag declining">Declining</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> Why is my display campaign CTR dropping?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> Your display CTR has dropped 31% after 9 days of continuous exposure. This indicates creative fatigue. I recommend refreshing creatives or rotating in new variations to recover engagement.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link saved">
+                                <i class="fas fa-bookmark"></i> Saved
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">Weekly Campaign Planning</h4>
+                                <span class="conversation-time">10:15 AM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag planning">Planning</span>
+                                <span class="tag launch">Launch</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> What campaigns are launching this week?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> You have 5 campaigns launching this week. Here's the schedule: Monday - Back to School campaign, Wednesday - Fall Collection launch, Friday - Weekend Special promotion.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link">
+                                <i class="fas fa-bookmark"></i> Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- This Week -->
+                <div class="conversation-group">
+                    <h3 class="group-header">This Week - Jan 22-26</h3>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">Audience Segmentation Strategy</h4>
+                                <span class="conversation-time">Jan 25, 3:45 PM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag audience">Audience</span>
+                                <span class="tag strategy">Strategy</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> How should I segment my audience for better performance?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> Based on your data, I recommend 3 segments: High-value customers (LTV >$500), New customers (first purchase), and Re-engagement (inactive 30+ days). Each should have tailored messaging and frequency.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link saved">
+                                <i class="fas fa-bookmark"></i> Saved
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="conversation-item">
+                        <div class="conversation-header">
+                            <div class="conversation-info">
+                                <h4 class="conversation-title">ROI Analysis Deep Dive</h4>
+                                <span class="conversation-time">Jan 23, 1:20 PM</span>
+                            </div>
+                            <div class="conversation-tags">
+                                <span class="tag roi">ROI</span>
+                                <span class="tag analysis">Analysis</span>
+                            </div>
+                        </div>
+                        <div class="conversation-preview">
+                            <div class="message user-message">
+                                <strong>You:</strong> Can you analyze ROI across all my campaigns?
+                            </div>
+                            <div class="message ai-message">
+                                <strong>AI:</strong> Your average ROI is 285%. Top performers: Email (420% ROI), Retargeting (315% ROI). Underperformers: Display (180% ROI), Social (145% ROI). I recommend reallocating 15% budget from Social to Email.
+                            </div>
+                        </div>
+                        <div class="conversation-actions">
+                            <button class="action-link">
+                                <i class="fas fa-external-link-alt"></i> Open Full Conversation
+                            </button>
+                            <button class="action-link">
+                                <i class="fas fa-bookmark"></i> Save
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Right Panel - Quick Actions -->
+        <aside class="quick-actions-panel">
+            <header class="panel-header">
+                <h2>Quick Actions</h2>
+            </header>
+
+            <div class="quick-action-item">
+                <div class="action-icon">
+                    <i class="fas fa-plus-circle"></i>
+                </div>
+                <div class="action-content">
+                    <h4>Start New Conversation</h4>
+                    <p>Ask about campaign performance, get optimization suggestions</p>
+                </div>
+            </div>
+
+            <div class="quick-action-item">
+                <div class="action-icon">
+                    <i class="fas fa-bookmark"></i>
+                </div>
+                <div class="action-content">
+                    <h4>Saved Conversations</h4>
+                    <p>View your bookmarked discussions and insights</p>
+                </div>
+            </div>
+
+            <div class="quick-action-item">
+                <div class="action-icon">
+                    <i class="fas fa-download"></i>
+                </div>
+                <div class="action-content">
+                    <h4>Export History</h4>
+                    <p>Download conversation history as PDF or CSV</p>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div class="recent-topics">
+                <h3>Trending Topics</h3>
+                <div class="topic-item">
+                    <span class="topic-name">Campaign Performance</span>
+                    <span class="topic-count">12 conversations</span>
+                </div>
+                <div class="topic-item">
+                    <span class="topic-name">Budget Optimization</span>
+                    <span class="topic-count">8 conversations</span>
+                </div>
+                <div class="topic-item">
+                    <span class="topic-name">Creative Analysis</span>
+                    <span class="topic-count">6 conversations</span>
+                </div>
+                <div class="topic-item">
+                    <span class="topic-name">Audience Targeting</span>
+                    <span class="topic-count">5 conversations</span>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
