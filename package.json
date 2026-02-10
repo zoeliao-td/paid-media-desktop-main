@@ -1,0 +1,16 @@
+{
+  "name": "campaigns-dashboard",
+  "version": "1.0.0",
+  "description": "AI-powered campaigns management dashboard with optimization tools",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static build complete'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "next": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
