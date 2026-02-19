@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified Paid Media - Campaigns Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="unified-paid-media.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <i class="fas fa-diamond"></i>
+            </div>
+            <ul class="nav-items">
+                <li class="nav-item">
+                    <a href="index.html">
+                        <i class="fas fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-bottom">
+                <div class="nav-item">
+                    <i class="fas fa-cog"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="content-wrapper">
+                <!-- Left Column -->
+                <div class="main-column">
+                    <!-- Header -->
+                    <div class="page-header-new">
+                        <h1>Hi, User Name!</h1>
+                    </div>
+
+                    <!-- Top 3 Metrics -->
+                    <div class="top-metrics">
+                        <div class="metric-box">
+                            <div class="metric-title">TOTAL SPEND</div>
+                            <div class="metric-main-value">$462,300</div>
+                            <div class="metric-bar green-bar"></div>
+                            <div class="metric-sub">92% of monthly target | On track</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-title">CONVERSIONS</div>
+                            <div class="metric-main-value">18,740</div>
+                            <div class="metric-bar green-bar"></div>
+                            <div class="metric-sub">88% of monthly target | On track</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-title">CPA</div>
+                            <div class="metric-main-value">$42</div>
+                            <div class="metric-bar green-bar"></div>
+                            <div class="metric-sub">95% vs. target ($44) | On track</div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom 2 Metrics -->
+                    <div class="bottom-metrics">
+                        <div class="metric-box">
+                            <div class="metric-title">ROAS</div>
+                            <div class="metric-main-value">3.8x</div>
+                            <div class="metric-bar red-bar"></div>
+                            <div class="metric-sub">76% vs. target (5.0x) | Below target</div>
+                        </div>
+                        <div class="metric-box">
+                            <div class="metric-title">REVENUE</div>
+                            <div class="metric-main-value">$6,800</div>
+                            <div class="metric-bar red-bar"></div>
+                            <div class="metric-sub">68% vs. target ($10K) | Below target</div>
+                        </div>
+                    </div>
+
+                    <!-- Cross Channel Orchestration -->
+                    <div class="section-header">
+                        <h2>Cross Channel Orchestration</h2>
+                        <p>Should I reallocate budget?</p>
+                    </div>
+
+                    <!-- Charts Grid -->
+                    <div class="charts-grid">
+                        <div class="chart-box">
+                            <h3>Current vs Recommended Budget Allocation</h3>
+                            <div class="chart-bars">
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">LinkedIn</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-current" style="width: 75%"></div>
+                                        <div class="bar bar-recommended" style="width: 53%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Google Search</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-current" style="width: 68%"></div>
+                                        <div class="bar bar-recommended" style="width: 48%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Meta Ads</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-current" style="width: 45%"></div>
+                                        <div class="bar bar-recommended" style="width: 58%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Google Display</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-current" style="width: 38%"></div>
+                                        <div class="bar bar-recommended" style="width: 38%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">YouTube</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-current" style="width: 28%"></div>
+                                        <div class="bar bar-recommended" style="width: 28%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-legend-bar">
+                                <div class="legend-item-bar">
+                                    <div class="legend-dot current"></div>
+                                    <span>Current</span>
+                                </div>
+                                <div class="legend-item-bar">
+                                    <div class="legend-dot recommended"></div>
+                                    <span>Recommended</span>
+                                </div>
+                            </div>
+                            <div class="chart-summary">
+                                <div class="summary-row">
+                                    <span class="summary-label">Total Spend</span>
+                                    <span class="summary-value">$185k</span>
+                                    <span class="summary-change green-text">↑ 12%</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span class="summary-label">Efficiency</span>
+                                    <span class="summary-value">2.8%</span>
+                                    <span class="summary-change red-text">↓ 0.3%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chart-box">
+                            <h3>Channel Performance Metrics</h3>
+                            <div class="chart-bars">
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Meta Ads</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-green" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">LinkedIn</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-green" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Google Shopping</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-green" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Google Display</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-green" style="width: 68%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">YouTube</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-green" style="width: 55%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chart-box">
+                            <h3>Other Channels</h3>
+                            <div class="chart-bars">
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">TikTok</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-orange" style="width: 48%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Twitter</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-orange" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Pinterest</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-orange" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Snapchat</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-orange" style="width: 52%"></div>
+                                    </div>
+                                </div>
+                                <div class="chart-bar-row">
+                                    <div class="bar-label">Reddit</div>
+                                    <div class="bar-container">
+                                        <div class="bar bar-orange" style="width: 38%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Budget Tables Grid -->
+                    <div class="tables-grid">
+                        <div class="table-box">
+                            <h3>Recommended Budget Shifts</h3>
+                            <p class="table-subtitle">Strategic reallocation for improved efficiency</p>
+                            <div class="budget-table">
+                                <div class="table-row">
+                                    <div class="platform-name">LinkedIn</div>
+                                    <div class="shift-data">
+                                        <span>Reduce Spend</span>
+                                        <span class="shift-value red-text">-15%</span>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="platform-name">Google Search</div>
+                                    <div class="shift-data">
+                                        <span>Reduce Spend</span>
+                                        <span class="shift-value red-text">-8%</span>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="platform-name">Google Display</div>
+                                    <div class="shift-data">
+                                        <span>Increase Spend</span>
+                                        <span class="shift-value green-text">+12%</span>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="platform-name">YouTube</div>
+                                    <div class="shift-data">
+                                        <span>Reduce Spend</span>
+                                        <span class="shift-value red-text">-5%</span>
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="platform-name">Meta Ads</div>
+                                    <div class="shift-data">
+                                        <span>Increase Spend</span>
+                                        <span class="shift-value green-text">+18%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="table-box">
+                            <h3>Channel Efficiency Rankings</h3>
+                            <p class="table-subtitle">Ranked by ROAS, CPA, and conversion rate</p>
+                            <div class="efficiency-rankings">
+                                <div class="rank-card rank-green">
+                                    <div class="rank-header">
+                                        <span class="rank-number">01</span>
+                                        <span class="platform-name">YouTube</span>
+                                        <span class="rank-score">92</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">5.2x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$28</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">6.8%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">⬆ Strong paid search performance</div>
+                                </div>
+
+                                <div class="rank-card rank-green">
+                                    <div class="rank-header">
+                                        <span class="rank-number">02</span>
+                                        <span class="platform-name">Meta Ads</span>
+                                        <span class="rank-score">88</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">4.8x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$32</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">5.2%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">⬆ Great audience targeting</div>
+                                </div>
+
+                                <div class="rank-card rank-green">
+                                    <div class="rank-header">
+                                        <span class="rank-number">03</span>
+                                        <span class="platform-name">Google Shopping</span>
+                                        <span class="rank-score">85</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">4.2x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$36</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">4.9%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">⬆ High intent traffic</div>
+                                </div>
+
+                                <div class="rank-card rank-yellow">
+                                    <div class="rank-header">
+                                        <span class="rank-number">04</span>
+                                        <span class="platform-name">LinkedIn</span>
+                                        <span class="rank-score">72</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">3.1x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$52</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">3.2%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">→ Stable B2B performance</div>
+                                </div>
+
+                                <div class="rank-card rank-yellow">
+                                    <div class="rank-header">
+                                        <span class="rank-number">05</span>
+                                        <span class="platform-name">Google Display</span>
+                                        <span class="rank-score">68</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">2.8x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$58</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">2.1%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">→ Brand awareness focus</div>
+                                </div>
+
+                                <div class="rank-card rank-red">
+                                    <div class="rank-header">
+                                        <span class="rank-number">06</span>
+                                        <span class="platform-name">Google Search</span>
+                                        <span class="rank-score">58</span>
+                                    </div>
+                                    <div class="rank-metrics">
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">ROAS</span>
+                                            <span class="metric-value-sm">2.2x</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">CPA</span>
+                                            <span class="metric-value-sm">$78</span>
+                                        </div>
+                                        <div class="rank-metric">
+                                            <span class="metric-label-sm">Conv Rate</span>
+                                            <span class="metric-value-sm">1.8%</span>
+                                        </div>
+                                    </div>
+                                    <div class="rank-note">⬇ High CPA needs optimization</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Top Performing Campaigns -->
+                    <div class="section-header">
+                        <h2>Top Performing Campaigns</h2>
+                        <p>Top 3 campaigns to scale up</p>
+                    </div>
+
+                    <div class="campaigns-grid">
+                        <div class="campaign-card campaign-green">
+                            <div class="campaign-header">
+                                <div class="campaign-icon green-icon">01</div>
+                                <div class="campaign-title">
+                                    <h4>Spring Sales Promo - Facebook</h4>
+                                    <p>Running since Jan 15, 2024</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">Promoting new product launch with carousel ads targeting warm audiences. Strong engagement and conversion rates.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">6.2x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$45,200</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Revenue</span>
+                                    <span class="camp-value">$280,240</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="campaign-card campaign-green">
+                            <div class="campaign-header">
+                                <div class="campaign-icon green-icon">02</div>
+                                <div class="campaign-title">
+                                    <h4>High-ROI LinkedIn Executive CTR</h4>
+                                    <p>Running since Dec 1, 2023</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">B2B campaign targeting C-level executives with thought leadership content. Excellent lead quality and pipeline contribution.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">5.8x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$38,900</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Revenue</span>
+                                    <span class="camp-value">$225,620</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="campaign-card campaign-green">
+                            <div class="campaign-header">
+                                <div class="campaign-icon green-icon">03</div>
+                                <div class="campaign-title">
+                                    <h4>Urban Essentials Discovery CTR</h4>
+                                    <p>Running since Jan 8, 2024</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">Google Shopping campaign with optimized product feeds and competitive bidding. Strong conversion rates across all product categories.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">5.4x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$52,100</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Revenue</span>
+                                    <span class="camp-value">$281,340</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bottom Performing -->
+                    <div class="section-header">
+                        <h2>Bottom Performing</h2>
+                        <p>Bottom 3 campaigns needing immediate attention</p>
+                    </div>
+
+                    <div class="campaigns-grid">
+                        <div class="campaign-card campaign-orange">
+                            <div class="campaign-header">
+                                <div class="campaign-icon orange-icon">01</div>
+                                <div class="campaign-title">
+                                    <h4>Holiday Gift Guide - Meta Prospecting</h4>
+                                    <p>Running since Nov 20, 2023</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">Cold audience prospecting campaign with broad targeting. High spend with minimal conversions. Requires immediate optimization or pause.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">1.2x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$28,400</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Revenue</span>
+                                    <span class="camp-value">$34,080</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="campaign-card campaign-orange">
+                            <div class="campaign-header">
+                                <div class="campaign-icon orange-icon">02</div>
+                                <div class="campaign-title">
+                                    <h4>Q1 Email Blast - Generic Keywords</h4>
+                                    <p>Running since Jan 5, 2024</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">Broad match keywords driving unqualified traffic. Low CTR and conversion rate indicate poor keyword targeting and ad relevance.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">0.9x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$31,200</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-value">$28,080</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="campaign-card campaign-orange">
+                            <div class="campaign-header">
+                                <div class="campaign-icon orange-icon">03</div>
+                                <div class="campaign-title">
+                                    <h4>European Remarketing - Old Creative</h4>
+                                    <p>Running since Oct 12, 2023</p>
+                                </div>
+                            </div>
+                            <p class="campaign-description">Display remarketing with outdated creative. Ad fatigue evident from declining CTR. Creative refresh needed urgently.</p>
+                            <div class="campaign-metrics">
+                                <div class="camp-metric">
+                                    <span class="camp-label">ROAS</span>
+                                    <span class="camp-value">1.4x</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Spend</span>
+                                    <span class="camp-value">$18,900</span>
+                                </div>
+                                <div class="camp-metric">
+                                    <span class="camp-label">Revenue</span>
+                                    <span class="camp-value">$26,460</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Audience Performance Analysis -->
+                    <div class="section-header">
+                        <h2>Audience Performance Analysis</h2>
+                    </div>
+
+                    <div class="audience-grid">
+                        <div class="audience-card">
+                            <div class="audience-name">Female, 25-34, Urban</div>
+                            <div class="audience-badge badge-green">+12.5%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">4,320</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">5.8%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$28</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">↗ Trending up, recommend +20% budget</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Male, 35-44, Suburban</div>
+                            <div class="audience-badge badge-green">+8.2%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">3,840</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">4.9%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$32</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">↗ Strong performance, scale gradually</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Female, 18-24, Students</div>
+                            <div class="audience-badge badge-blue">+2.1%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">2,180</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">3.2%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$38</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">→ Stable, monitor closely</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Male, 45-54, Rural Executive</div>
+                            <div class="audience-badge badge-blue">-1.3%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">1,920</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">2.8%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$45</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">→ Holding steady</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Female, 35-44, Parents</div>
+                            <div class="audience-badge badge-yellow">-5.8%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">1,680</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">2.1%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$52</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">↘ Declining, review creative</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Male, 25-34, Tech Workers</div>
+                            <div class="audience-badge badge-yellow">-4.2%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">1,440</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">1.9%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$58</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">↘ Needs optimization</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Female, 55+, Retirees</div>
+                            <div class="audience-badge badge-red">-12.4%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">980</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">1.2%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$72</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">⬇ Poor fit, consider pausing</p>
+                        </div>
+
+                        <div class="audience-card">
+                            <div class="audience-name">Male, 18-24, College Students</div>
+                            <div class="audience-badge badge-red">-8.9%</div>
+                            <div class="audience-metrics">
+                                <div class="aud-metric">
+                                    <span class="aud-label">Conversions</span>
+                                    <span class="aud-value">720</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CTR</span>
+                                    <span class="aud-value">0.9%</span>
+                                </div>
+                                <div class="aud-metric">
+                                    <span class="aud-label">CPA</span>
+                                    <span class="aud-value">$85</span>
+                                </div>
+                            </div>
+                            <p class="audience-note">⬇ Low engagement, reevaluate targeting</p>
+                        </div>
+                    </div>
+
+                    <!-- Creative Performance Analysis -->
+                    <div class="section-header">
+                        <h2>Creative Performance Analysis</h2>
+                        <p>Which ad creatives should be scaled vs paused</p>
+                    </div>
+
+                    <div class="creative-section">
+                        <div class="creative-chart">
+                            <h3>Creative Performance Landscape</h3>
+                            <p class="chart-subtitle">Plotted by CTR vs Spend | Size indicates CPA performance</p>
+                            <div class="scatter-chart">
+                                <div class="scatter-y-axis">
+                                    <span>5.0%</span>
+                                    <span>4.0%</span>
+                                    <span>3.0%</span>
+                                    <span>2.0%</span>
+                                    <span>1.0%</span>
+                                </div>
+                                <div class="scatter-plot">
+                                    <div class="scatter-dot dot-large blue-dot" style="left: 15%; bottom: 72%;"></div>
+                                    <div class="scatter-dot dot-medium blue-dot" style="left: 25%; bottom: 65%;"></div>
+                                    <div class="scatter-dot dot-small blue-dot" style="left: 35%; bottom: 78%;"></div>
+                                    <div class="scatter-dot dot-large blue-dot" style="left: 45%; bottom: 68%;"></div>
+                                    <div class="scatter-dot dot-medium blue-dot" style="left: 55%; bottom: 75%;"></div>
+                                    <div class="scatter-dot dot-small blue-dot" style="left: 65%; bottom: 70%;"></div>
+                                    <div class="scatter-dot dot-large blue-dot" style="left: 75%; bottom: 82%;"></div>
+                                    <div class="scatter-dot dot-medium blue-dot" style="left: 85%; bottom: 88%;"></div>
+                                </div>
+                                <div class="scatter-x-axis">
+                                    <span>$0</span>
+                                    <span>$10k</span>
+                                    <span>$20k</span>
+                                    <span>$30k</span>
+                                    <span>$40k</span>
+                                </div>
+                            </div>
+                            <div class="chart-legend-scatter">
+                                <div class="legend-note">● Bubble size = CPA (larger = higher cost)</div>
+                                <div class="legend-note">↗ Top right = High spend, high CTR (winners)</div>
+                                <div class="legend-note">↘ Bottom right = High spend, low CTR (pause candidates)</div>
+                            </div>
+                        </div>
+
+                        <div class="creative-list">
+                            <h3>Creative Performance Details</h3>
+
+                            <div class="creative-item creative-green">
+                                <div class="creative-header">
+                                    <div class="creative-number">01</div>
+                                    <div class="creative-info">
+                                        <h4>Spring Photo Shoot</h4>
+                                        <div class="creative-badge badge-green">+15.2%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Lifestyle photography with product placement</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">6.2%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$12k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$24</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-green">
+                                <div class="creative-header">
+                                    <div class="creative-number">02</div>
+                                    <div class="creative-info">
+                                        <h4>Product Demo Video</h4>
+                                        <div class="creative-badge badge-green">+12.8%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">15-second product feature highlight</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">5.8%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$18k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$28</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-green">
+                                <div class="creative-header">
+                                    <div class="creative-number">03</div>
+                                    <div class="creative-info">
+                                        <h4>Customer Testimonial</h4>
+                                        <div class="creative-badge badge-green">+9.4%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">User-generated content with real customer stories</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">5.2%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$9k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$32</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-green">
+                                <div class="creative-header">
+                                    <div class="creative-number">04</div>
+                                    <div class="creative-info">
+                                        <h4>Lifestyle Video</h4>
+                                        <div class="creative-badge badge-green">+7.1%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Aspirational lifestyle content</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">4.8%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$14k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$36</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-red">
+                                <div class="creative-header">
+                                    <div class="creative-number">05</div>
+                                    <div class="creative-info">
+                                        <h4>Text Only Promo</h4>
+                                        <div class="creative-badge badge-red">-18.5%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Simple text-based promotional ad</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">1.2%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$22k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$82</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-red">
+                                <div class="creative-header">
+                                    <div class="creative-number">06</div>
+                                    <div class="creative-info">
+                                        <h4>Old Holiday Creative</h4>
+                                        <div class="creative-badge badge-red">-22.3%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Outdated seasonal messaging</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">0.8%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$28k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$95</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-red">
+                                <div class="creative-header">
+                                    <div class="creative-number">07</div>
+                                    <div class="creative-info">
+                                        <h4>Generic Product Shot</h4>
+                                        <div class="creative-badge badge-red">-15.7%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Basic product photography with no context</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">1.4%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$16k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$78</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="creative-item creative-red">
+                                <div class="creative-header">
+                                    <div class="creative-number">08</div>
+                                    <div class="creative-info">
+                                        <h4>Stock Image Ad</h4>
+                                        <div class="creative-badge badge-red">-19.2%</div>
+                                    </div>
+                                </div>
+                                <p class="creative-desc">Generic stock photography</p>
+                                <div class="creative-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">CTR</span>
+                                        <span class="stat-value">1.1%</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Spend</span>
+                                        <span class="stat-value">$19k</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">CPA</span>
+                                        <span class="stat-value">$88</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
